@@ -11,7 +11,7 @@ export function Home() {
       <StatusBar style='auto' />
         <View style={styles.content}>
           <Navbar />
-
+          
           <Main />
 
         </View>
