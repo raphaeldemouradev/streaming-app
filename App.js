@@ -4,10 +4,11 @@ import { NavigationContainer } from '@react-navigation/native';
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <SafeAreaProvider />
-      <Rotas />
-    </NavigationContainer>
+    <SafeAreaProvider>
+      <NavigationContainer>
+        <Rotas />
+      </NavigationContainer>
+    </SafeAreaProvider>
   );
 }
 
